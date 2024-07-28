@@ -1,15 +1,23 @@
 * {
     font-family: Helvetica, sans-serif;
+    text-align: center;
 }
 
 .header {
     display: flex;
+    background-color: green;
+}
+
+#logo {
+    font-size: 18px;
+    margin-left: 15px;
+    font-weight: 700;
 }
 
 #home {
-    margin-bottom: auto;
-    margin-top: auto;
+    margin: auto 0px;
     background-color: black;
+    text-decoration: none;
     color: white;
     height: 35px;
     width: 25px;
@@ -17,16 +25,34 @@
 
 h1 {
     font-family: cursive, sans-serif;
-    font-size: 45px;
+    font-size: 40px;
     color: lightgray;
 }
 
+.disclaimer {
+    background-color: gray;
+    font-size: 8px;
+}
 
-ul li {
-    display: inline-flex;
+.card li {
+    display: inline-block;
+    height: 130px;
+    width: 250px;
     font-size: 20px;
     margin: 10px 0px;
-    height: 100px;
-    width: 150px;
+}
+
+#tacos {
     background-image: url("https://www.allrecipes.com/thmb/YJUxi0DC3kHi5cSGkBZ4Zti2sRE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/37906_ChickenTacos-9c1d75370bb64097b3dd5df5b6c80e61.png");
+    background-size: cover;    
+}
+
+#spanish-omlette {
+    background-image: url("https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2200867.jpg&q=60&c=sc&poi=auto&orient=true&h=512");
+    background-size: cover;    
+}
+
+#egg-fried-rice {
+    background-image: url("https://www.allrecipes.com/thmb/WAaJX7ghFAiGjU3WGRmRC424exA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/6751001-egg-fried-rice-Mariya-Tkachenko-4x3-1-0a5504e18cea49c2bf4419799bd50ad9.jpg");
+    background-size: cover;    
 }
