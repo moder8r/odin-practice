@@ -1,0 +1,22 @@
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+}
+
+#home {
+    margin-bottom: auto;
+    margin-top: auto;
+    background-color: black;
+    color: white;
+    height: 35px;
+    width: 25px;
+}
+
+h1 {
+    font-family: cursive, sans-serif;
+    font-size: 45px;
+    color: lightgray;
+}
