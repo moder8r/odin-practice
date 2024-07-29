@@ -1,2 +1,1 @@
-# odin-practice
-odin-practice
+In this repository I try to practice by incorporating what I've learned so far from The Odin Project.
