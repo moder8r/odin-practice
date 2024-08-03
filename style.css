@@ -3,20 +3,32 @@ h1 {
     font-size: 35px;
 }
 
+#enroll {
+    height: 35px;
+    width: 95px;
+    background-color: green;
+    color: white;
+}
+
 .first {
     background-color: rgb(0, 0, 127);
     height: 500px;
+    padding: 10px;
 }
 
 .second {
     background-color: rgb(0, 127, 0);
-    height: 500px;
+    height: auto;
     display: flex;
+}
+
+.second > h2 {
+    flex: 1 1 0;
 }
 
 .second > div {
     background-color: black;
-    height: 100px;
+    height: 300px;
     margin: 10px;
-    flex: 1 1 0;
+    flex: 2 1 0;
 }
