@@ -2,30 +2,34 @@
 <html lang="en">
     
 <head>
-    <title>Practice</title>
+    <title>Odin</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
 
-    <nav class="navbar">
-        <ul>
-            <li><a href="#.secondheading">Curriculum</a></li>
-            <li><a href="#campus">Campus</a></li>
-            <li><a href="#contact">Contact Us</a></li>
-        </ul>
-    </nav>
+    <div class="nav">
+        <div class="logo">
+            <img src="./res/logo.png" alt="Odin">
+        </div>
+        <div class="navlinks">
+            <nav>
+                <a href="#courses">courses</a>
+                <a href="#contact">contact</a>
+            </nav>
+        </div>
+    </div>
 </head>
 
 <body>
     <div class="first">
-        <div class="heading">
+        <div class="hero">
         <h1>Learn to code anytime, anywhere with Odin.</h1>
         <p>Become a professtion full stack web developer by following our expert curated curriculum.</p>
-        <button id="enroll">Enroll Now</button>
+        <button class="enroll">Enroll Now</button>
         </div>
     </div>
 
 
-    <h2 id="secondheading">Our Curriculum</h2>
+    <h2 id="courses" class="hooks">Courses</h2>
     <div class="second">
         <div class="fone">
             <h3>HTML</h3>
@@ -44,10 +48,13 @@
         </div>
     </div>
 
-    <h2 id="contact">Contact Us</h2>
+    <h2 id="contact" class="hooks">Contact Us</h2>
     <div class="contact">
-
     </div>
 
+    <div class="third">
+        <p>Start your code learning journey today</p>
+        <button class="enroll">Enroll Now</button>
+    </div>
 </body>
 </html>
