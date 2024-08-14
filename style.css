@@ -14,23 +14,24 @@
 
 .nav img {
     margin: 0px 0px 0px 8px;
-    height: 35px;
+    height: 45px;
     background-color: gray;
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
 }
 
 .nav a {
-    border: 1px solid white;
-    border-radius: 10px;
+    color: yellowgreen;
     padding: 1px 5px 1px 5px;
-    margin: 10px 10px 0px 0px;
+    margin: 0 5px;
+    font-family: Tahoma;
+    font-weight: 500;
+    font-size: 12px;
 }
 
 .navlinks a:hover {
-    background-color: white;
-    color: #1f2937;
-    border: 1px solid white;
+    color: white;
+    border-bottom: 1px solid white;
 }
 
 h1 {
@@ -48,6 +49,11 @@ p {
     background-color: green;
     color: white;
     border: none;
+}
+
+.enroll:hover {
+    color: #1f2937;
+    background-color: white;
 }
 
 .first {
@@ -121,12 +127,29 @@ p {
 }
 
 .fourth {
-    background: #1f2937;
-    height: 50px;
-    margin: 0px 20% 5px 20%;
-    align-items: center;
-    padding: 0px 8px 0px 8px;
     display: flex;
-    justify-content: space-between;
-    border-radius: 15px;
+    justify-content: center;    
+}
+
+.emailsub {
+    width: 208px;
+    border: 3px solid black;
+    border-radius: 25px;
+    margin-bottom: 5cdpx;
+}
+
+#emailsub {
+    color: white;
+    background: #1f2937;
+    border-radius: 30px;
+    height: 20px;
+    width: 20px;
+    margin: 0px;
+}
+
+.emailsub input {
+    color: black;
+    border: none;
+    margin: 0px 0px 0px 3px;
+    padding: 0px;
 }

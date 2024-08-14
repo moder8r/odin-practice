@@ -1,0 +1,70 @@
+* {
+    color: white;
+    margin: 0px;
+    font-family: Helvetica, serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    background-color: #1f2937;
+}
+
+.nav img {
+    margin: 0px 0px 0px 8px;
+    height: 45px;
+    background-color: gray;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.nav a {
+    color: yellowgreen;
+    padding: 1px 5px 1px 5px;
+    margin: 0 5px;
+    font-family: Tahoma;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.navlinks a:hover {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.one input {
+    margin: 2px 2px;
+    height: 20px;
+    width: 200px;
+    background-color: white;
+    color: #1f2937;
+    border-radius: 25px;
+}
+
+.two select, .three select {
+    height: 25px;
+    width: 85px;
+    background-color: white;
+    color: #1f2937;
+    border-radius: 25px;
+}
+
+.two input {
+    background-color: white;
+    color: #1f2937;
+    height: 20px;
+    width: 85px;
+    margin: 2px 2px;
+    border-radius: 25px;
+}
+
+#submit {
+    background-color: white;
+    color: #1f2937;
+    height: 30px;
+    width: 95px;
+    border-radius: 25px;
+}
